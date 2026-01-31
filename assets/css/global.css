@@ -12,8 +12,6 @@ a {outline:none; select-dummy:expression(this.hideFocus=true); -webkit-tap-highl
 em {font-style:normal;}
 *:focus {outline:none;}
 
-/* 22.10.31 이현진 추가 */
-
 /* 컨텐츠 */
 .fp-tableCell {vertical-align:middle;}
 #wrap {width:100%;}
@@ -120,7 +118,7 @@ em {font-style:normal;}
 .section6.show .turnList li strong a, .section6.show .turnList li.kakao strong a {transform:rotateY(0); transition:.4s ease-in-out 1.2s;}
 
 /* section7 */
-.section7 .downWrap {height:60.78%; display:flex; align-items:center; background:#071e33;} /* 22.12.06 이현진 height 수정 */
+.section7 .downWrap {height:70%; display:flex; align-items:center; background:#071e33;} /* 22.12.06 이현진 height 수정 */
 .section7 .downWrap .downList li {position:relative; padding-left:166px; display:flex;}
 .section7 .downWrap .downList li + li {margin-top:40px;}
 .section7 .downWrap .downList li em {position:absolute; top:50%; left:0; transform:translateY(-50%); font-size:28px; color:#fff; line-height:1; font-weight:500;}
@@ -133,7 +131,7 @@ transform:translateX(-50px); opacity:0;}
 .section7 .downWrap .downList li.marketDown a.phone i {color:#01a8ba;}
 .section7 .downWrap .downList li.ownerDown a.phone i {color:#e97d3f;}
 .section7 .downWrap .downList li a img {position:absolute; bottom:15px; right:15px;}
-.section7 .cs {background:#d6edef; height:20.72%;} /* 22.12.06 이현진 height 수정 */
+.section7 .cs {background:#d6edef; height:30%;}
 .section7 .cs .inner {display:flex; flex-direction:column; justify-content:center; align-items:center; height:100%;}
 .section7 .cs .csTit {font-size:22px; color:#666; line-height:1; font-weight:400;}
 .section7 .cs .csTit em {color:#000; font-size:26px; font-weight:700;}
@@ -213,4 +211,5 @@ transform:translateX(-50px); opacity:0;}
     0% {opacity:100%;}
     50% {opacity:0;}
     100% {opacity:100%;}
+
 }
